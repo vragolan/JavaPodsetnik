@@ -1,4 +1,4 @@
-package com.primer.java;
+package com.primer.java.promenjive;
 
 public class Main {
 
