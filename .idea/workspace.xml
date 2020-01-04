@@ -7,13 +7,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1VM5kbGB5khWqEblhupBoVYHk03" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.forWhite">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.primer.java.Main" />
       <module name="JavaPodsetnik" />
@@ -24,8 +31,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="forWhite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.petlje.forWhite" />
+      <module name="JavaPodsetnik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.primer.java.petlje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ifElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.petlje.ifElse" />
+      <module name="JavaPodsetnik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.primer.java.petlje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="switchUslov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.petlje.switchUslov" />
+      <module name="JavaPodsetnik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.primer.java.petlje.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ifElse" />
+      <item itemvalue="Application.switchUslov" />
+      <item itemvalue="Application.forWhite" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.forWhite" />
+        <item itemvalue="Application.switchUslov" />
+        <item itemvalue="Application.ifElse" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -60,5 +115,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="211" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1577050316106" />
+    <state width="1340" height="258" key="GridCell.Tab.0.bottom" timestamp="1578098598433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578098598433" />
+    <state width="1340" height="258" key="GridCell.Tab.0.center" timestamp="1578098598433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578098598433" />
+    <state width="1340" height="258" key="GridCell.Tab.0.left" timestamp="1578098598433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578098598433" />
+    <state width="1340" height="258" key="GridCell.Tab.0.right" timestamp="1578098598433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578098598433" />
   </component>
 </project>
