@@ -14,9 +14,12 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+=======
+>>>>>>> metode
   <component name="ProjectId" id="1VM5kbGB5khWqEblhupBoVYHk03" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,6 +27,7 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -69,6 +73,11 @@
     </configuration>
     <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.primer.java.Math" />
+=======
+  <component name="RunManager" selected="Application.razliciteMetode">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.Main" />
+>>>>>>> metode
       <module name="JavaPodsetnik" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +89,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.primer.java.Operators" />
       <module name="JavaPodsetnik" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.primer.java.*" />
+=======
+    <configuration name="obicnaMetoda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.metode.obicnaMetoda" />
+      <module name="JavaPodsetnik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.primer.java.metode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="razliciteMetode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.metode.razliciteMetode" />
+      <module name="JavaPodsetnik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.primer.java.metode.*" />
+>>>>>>> metode
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +125,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.Booleans" />
       <item itemvalue="Application.Characters" />
       <item itemvalue="Application.KonverzijaBrojeva" />
@@ -107,6 +139,17 @@
         <item itemvalue="Application.Booleans" />
         <item itemvalue="Application.Math" />
         <item itemvalue="Application.KonverzijaBrojeva" />
+=======
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.obicnaMetoda" />
+      <item itemvalue="Application.razliciteMetode" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.razliciteMetode" />
+        <item itemvalue="Application.obicnaMetoda" />
+        <item itemvalue="Application.Main" />
+>>>>>>> metode
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +183,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="211" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1577050316106" />
+<<<<<<< HEAD
     <state width="1340" height="258" key="GridCell.Tab.0.bottom" timestamp="1577062732926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -160,5 +204,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578103728234" />
+=======
+    <state width="1340" height="258" key="GridCell.Tab.0.bottom" timestamp="1578103483423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578103483423" />
+    <state width="1340" height="258" key="GridCell.Tab.0.center" timestamp="1578103483423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578103483423" />
+    <state width="1340" height="258" key="GridCell.Tab.0.left" timestamp="1578103483423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578103483423" />
+    <state width="1340" height="258" key="GridCell.Tab.0.right" timestamp="1578103483423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578103483423" />
+>>>>>>> metode
   </component>
 </project>
