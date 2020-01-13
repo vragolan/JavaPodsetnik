@@ -27,9 +27,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.kretanjeKrozListeMape">
-    <configuration name="dvozimenzionalniNizovi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.primer.java.strukture.dvozimenzionalniNizovi" />
+  <component name="RunManager" selected="Application.kalkulator">
+    <configuration name="hashmapa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.strukture.hashmapa" />
       <module name="JavaPodsetnik" />
       <extension name="coverage">
         <pattern>
@@ -41,12 +41,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hashmapa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.primer.java.strukture.hashmapa" />
+    <configuration name="kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.klase.kalkulator" />
       <module name="JavaPodsetnik" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.primer.java.strukture.*" />
+          <option name="PATTERN" value="com.primer.java.klase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nizovi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.primer.java.strukture.nizovi" />
+    <configuration name="razliciteMetode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.metode.razliciteMetode" />
       <module name="JavaPodsetnik" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.primer.java.strukture.*" />
+          <option name="PATTERN" value="com.primer.java.metode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,19 +94,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.nizovi" />
-      <item itemvalue="Application.dvozimenzionalniNizovi" />
       <item itemvalue="Application.liste" />
       <item itemvalue="Application.hashmapa" />
       <item itemvalue="Application.kretanjeKrozListeMape" />
+      <item itemvalue="Application.kalkulator" />
+      <item itemvalue="Application.razliciteMetode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kalkulator" />
+        <item itemvalue="Application.razliciteMetode" />
         <item itemvalue="Application.kretanjeKrozListeMape" />
         <item itemvalue="Application.hashmapa" />
         <item itemvalue="Application.liste" />
-        <item itemvalue="Application.dvozimenzionalniNizovi" />
-        <item itemvalue="Application.nizovi" />
       </list>
     </recent_temporary>
   </component>
@@ -136,41 +136,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1340" height="258" key="GridCell.Tab.0.bottom" timestamp="1578872094457">
+    <state width="1340" height="319" key="GridCell.Tab.0.bottom" timestamp="1578875793016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578872094457" />
-    <state width="1340" height="258" key="GridCell.Tab.0.center" timestamp="1578872094457">
+    <state width="1340" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
+    <state width="1340" height="319" key="GridCell.Tab.0.center" timestamp="1578875793016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578872094457" />
-    <state width="1340" height="258" key="GridCell.Tab.0.left" timestamp="1578872094457">
+    <state width="1340" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
+    <state width="1340" height="319" key="GridCell.Tab.0.left" timestamp="1578875793016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578872094457" />
-    <state width="1340" height="258" key="GridCell.Tab.0.right" timestamp="1578872094457">
+    <state width="1340" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
+    <state width="1340" height="319" key="GridCell.Tab.0.right" timestamp="1578875793016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578872094457" />
-    <state width="1340" height="319" key="GridCell.Tab.1.bottom" timestamp="1578795865866">
+    <state width="1340" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
+    <state width="1340" height="319" key="GridCell.Tab.1.bottom" timestamp="1578875793017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578795865866" />
-    <state width="1340" height="319" key="GridCell.Tab.1.center" timestamp="1578795865866">
+    <state width="1340" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793017" />
+    <state width="1340" height="319" key="GridCell.Tab.1.center" timestamp="1578875793016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="319" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578795865866" />
-    <state width="1340" height="319" key="GridCell.Tab.1.left" timestamp="1578795865866">
+    <state width="1340" height="319" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
+    <state width="1340" height="319" key="GridCell.Tab.1.left" timestamp="1578875793016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="319" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578795865866" />
-    <state width="1340" height="319" key="GridCell.Tab.1.right" timestamp="1578795865866">
+    <state width="1340" height="319" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
+    <state width="1340" height="319" key="GridCell.Tab.1.right" timestamp="1578875793016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578795865866" />
+    <state width="1340" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
     <state x="724" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1578869901965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578869901965" />
+    <state x="734" y="150" key="refactoring.ChangeSignatureDialog" timestamp="1578873609522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="150" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578873609522" />
   </component>
 </project>
