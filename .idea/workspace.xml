@@ -26,6 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunManager" selected="Application.kalkulator">
     <configuration name="hashmapa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -136,22 +137,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1340" height="319" key="GridCell.Tab.0.bottom" timestamp="1578875793016">
+    <state width="1340" height="258" key="GridCell.Tab.0.bottom" timestamp="1579353563153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
-    <state width="1340" height="319" key="GridCell.Tab.0.center" timestamp="1578875793016">
+    <state width="1340" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579353563153" />
+    <state width="1340" height="258" key="GridCell.Tab.0.center" timestamp="1579353563153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
-    <state width="1340" height="319" key="GridCell.Tab.0.left" timestamp="1578875793016">
+    <state width="1340" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579353563153" />
+    <state width="1340" height="258" key="GridCell.Tab.0.left" timestamp="1579353563153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
-    <state width="1340" height="319" key="GridCell.Tab.0.right" timestamp="1578875793016">
+    <state width="1340" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579353563153" />
+    <state width="1340" height="258" key="GridCell.Tab.0.right" timestamp="1579353563153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
+    <state width="1340" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579353563153" />
     <state width="1340" height="319" key="GridCell.Tab.1.bottom" timestamp="1578875793017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,10 +169,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1340" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578875793016" />
-    <state x="724" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1578869901965">
+    <state x="724" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1579352627896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="724" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578869901965" />
+    <state x="724" y="355" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579352627896" />
+    <state x="763" y="345" key="extract.method.dialog" timestamp="1579352940885">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="345" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579352940885" />
     <state x="734" y="150" key="refactoring.ChangeSignatureDialog" timestamp="1578873609522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
