@@ -8,7 +8,7 @@ public class Sokovnik {
     public int iscedi(List<Jabuka> jabuke){
         int rezutat = 0;
         for (Jabuka j: jabuke) {
-            rezutat+=j.vrednost;
+            rezutat+=j.getVrednost();
         }
         return  rezutat;
     }
