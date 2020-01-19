@@ -2,7 +2,7 @@ package com.primer.java.klase.alati;
 
 
 
-public class Jabuka {
+public abstract class Jabuka {
     //public static final String DOMACA = "Domaca";
     //public static final String UVOZNA = "Uvozna";
 
@@ -34,4 +34,7 @@ public class Jabuka {
     public void setVrednost(int vrednost){
         this.Vrednost = vrednost;
     }
+
+    public abstract String poreklo();
+
 }
