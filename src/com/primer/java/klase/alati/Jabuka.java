@@ -1,9 +1,19 @@
 package com.primer.java.klase.alati;
 
 public class Jabuka {
+    public static final String DOMACA = "Domaca";
+    public static final String UVOZNA = "Uvozna";
+
     private String ime = "Zelena";
-    private String vrsta = "Domaca";
+    private String vrsta = UVOZNA;
     private int vrednost = 3;
+
+    public Jabuka(){}
+    public Jabuka(String ime, String vrsta, int vrednost){
+        this.ime = ime;
+        this.vrsta = vrsta;
+        this. vrednost = vrednost;
+    }
 
     public String getIme(){
         return ime;
