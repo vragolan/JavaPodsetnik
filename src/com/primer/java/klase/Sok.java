@@ -1,6 +1,7 @@
 package com.primer.java.klase;
 
 import com.primer.java.klase.alati.*;
+import com.primer.java.klase.iterfejsi.MetodeSokovnika;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,8 +22,9 @@ public class Sok {
             System.out.println(j.getVrsta());
         }
         // obrada
-        Sokovnik cedjenje = new Sokovnik();
-        int kolicina = cedjenje.iscedi(jabuke);
-        System.out.println("Dobili ste " + kolicina + "L soka.");
+        MetodeSokovnika cedjenje = new Sokovnik();
+        cedjenje.setKolicina(5);
+        int Kolicina = cedjenje.iscedi(jabuke);
+        System.out.println("Dobili ste " + Kolicina + "L soka.");
     }
 }
