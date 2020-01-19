@@ -1,15 +1,17 @@
 package com.primer.java.klase.alati;
 
+
+
 public class Jabuka {
-    public static final String DOMACA = "Domaca";
-    public static final String UVOZNA = "Uvozna";
+    //public static final String DOMACA = "Domaca";
+    //public static final String UVOZNA = "Uvozna";
 
     private String ime = "Zelena";
-    private String vrsta = UVOZNA;
+    private JabukaVrsta vrsta = JabukaVrsta.UVOZNA;
     private int vrednost = 3;
 
     public Jabuka(){}
-    public Jabuka(String ime, String vrsta, int vrednost){
+    public Jabuka(String ime, JabukaVrsta vrsta, int vrednost){
         this.ime = ime;
         this.vrsta = vrsta;
         this. vrednost = vrednost;
@@ -21,10 +23,10 @@ public class Jabuka {
     public void setIme(String ime){
         this.ime = ime;
     }
-    public String getVrsta(){
+    public JabukaVrsta getVrsta(){
         return vrsta;
     }
-    public void setVrsta(String vrsta){
+    public void setVrsta(JabukaVrsta vrsta){
         this.vrsta = vrsta;
     }
     public int getVrednost(){
