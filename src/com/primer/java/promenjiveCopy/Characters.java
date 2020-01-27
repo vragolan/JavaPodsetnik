@@ -1,4 +1,4 @@
-package com.primer.java;
+package com.primer.java.promenjiveCopy;
 
 public class Characters {
     public static void main(String[] args){
