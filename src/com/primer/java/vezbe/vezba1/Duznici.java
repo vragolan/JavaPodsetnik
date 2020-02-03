@@ -6,6 +6,7 @@ import java.util.List;
 
 public class Duznici  {
     public static List<Duznik> listaDuznika = new ArrayList<>();
+    public static List<Dugovanje> listaDugovanja = new ArrayList<>();
     public static void main(String args[]){
         System.out.println("Izaberite opciju: \n" +
                 "1) Novi duznik\n" +

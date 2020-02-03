@@ -1,8 +1,6 @@
 package com.primer.java.vezbe.vezba1;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Duznik implements Serializable {
     private String Ime;

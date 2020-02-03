@@ -1,9 +1,7 @@
 package com.primer.java.vezbe.vezba1;
 
-import com.primer.java.fajlovi.Osoba;
 
 import java.io.*;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -30,7 +28,14 @@ public class Funkcije {
                 citaj(unos());
                 break;
             case 3:
-                System.out.println("3");
+                Dugovanje dug = new Dugovanje();
+                System.out.print("Unesite stvar dugovanja: ");
+                dug.setStvar(unos());
+                System.out.print("Unesite kolicinu: ");
+                dug.setKolicina(Integer.parseInt(unos()));
+                System.out.print("Unesite ime duznika: ");
+                dug.setDuznik(vratiDuznika(unos()));
+                System.out.println("Dodali ste: " + dug.getStvar() + dug.getKolicina() + dug.getDuznik().getIme() + dug.getDuznik().getAdresa() + dug.getDuznik().getTelefon());
                 break;
             case 4:
                 System.out.println("4");
@@ -70,5 +75,26 @@ public class Funkcije {
         }   catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public static Duznik vratiDuznika(String Ime){
+        Duznik temp = null;
+        try(FileInputStream fi = new FileInputStream("src\\com\\primer\\java\\vezbe\\vezba1\\podaci\\baza.txt")) {
+            ObjectInputStream oi = new ObjectInputStream(fi);
+            List<Duznik> listaDuznika = (List<Duznik>) oi.readObject();
+
+            for(Duznik d1:listaDuznika){
+                if(d1.getIme().equals(Ime)){
+                    temp = d1;
+                    System.out.println("Pronadjen");
+                } else {
+                    System.out.println("Duznik nije pronadjen.");
+                }
+            }
+
+            oi.close();
+        }   catch (Exception e) {
+            e.printStackTrace();
+        }
+        return temp;
     }
 }
