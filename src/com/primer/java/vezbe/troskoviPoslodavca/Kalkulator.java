@@ -9,11 +9,20 @@ public class Kalkulator {
         Scanner sc = new Scanner(System.in);
         double plata = Double.parseDouble(sc.nextLine());
 
-        double bezOlaksica = Funkcije.porez(plata) + Funkcije.pio(plata) + Funkcije.zdravstveno(plata) + Funkcije.nezaposlenost(plata);
-        System.out.println("Troskovi bez olaksica: " + bezOlaksica);
-        double saOlaksicama = Funkcije.porez(plata)-(Funkcije.porez(plata))*0.7 + Funkcije.zdravstveno(plata) + Funkcije.nezaposlenost(plata);
-        System.out.println("Troskovi sa olaksicama: " +saOlaksicama);
-        System.out.println("Usteda: " + (bezOlaksica-saOlaksicama));
+        System.out.println("Troskovi bez olaksica: " + Funkcije.bezOlaksica(plata));
+
+        System.out.println("Troskovi sa olaksicama prve godine: " + Funkcije.olaksicePrva(plata));
+        System.out.println("Usteda: " + (Funkcije.bezOlaksica(plata) - Funkcije.olaksicePrva(plata)));
+
+        System.out.println("Troskovi sa olaksicama druge godine: " + Funkcije.olaksiceDruga(plata));
+        System.out.println("Usteda: " + (Funkcije.bezOlaksica(plata) - Funkcije.olaksiceDruga(plata)));
+
+        System.out.println("Troskovi sa olaksicama trece godine: " + Funkcije.olaksiceTreca(plata));
+        System.out.println("Usteda: " + (Funkcije.bezOlaksica(plata) - Funkcije.olaksiceTreca(plata)));
+
+        System.out.println("Ukupan trošak bez olakšica za 3god: " + Funkcije.bezOlaksica(plata)*3);
+        System.out.println("Ukupan trošak sa olaksicama za 3god: " + (Funkcije.olaksicePrva(plata) + Funkcije.olaksiceDruga(plata) + Funkcije.olaksiceTreca(plata)));
+        System.out.println("Ukupna ušteda za 3god: " + ((Funkcije.bezOlaksica(plata)*3) - (Funkcije.olaksicePrva(plata) + Funkcije.olaksiceDruga(plata) + Funkcije.olaksiceTreca(plata))));
 
     }
 }
