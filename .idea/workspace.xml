@@ -29,6 +29,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -38,13 +41,26 @@
       <recent name="com.primer.java.klase.alati" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Duznici">
+  <component name="RunManager" selected="Application.Kalkulator">
     <configuration name="Duznici" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.primer.java.vezbe.vezba1.Duznici" />
       <module name="JavaPodsetnik" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.primer.java.vezbe.vezba1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.primer.java.vezbe.troskoviPoslodavca.Kalkulator" />
+      <module name="JavaPodsetnik" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.primer.java.vezbe.troskoviPoslodavca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,33 +107,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kopiranjeNovo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.primer.java.fajlovi.kopiranjeNovo" />
-      <module name="JavaPodsetnik" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.primer.java.fajlovi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ObjektiCitanje" />
       <item itemvalue="Application.ObjektiPisanje" />
       <item itemvalue="Application.kopiranjeInternet" />
-      <item itemvalue="Application.kopiranjeNovo" />
       <item itemvalue="Application.Duznici" />
+      <item itemvalue="Application.Kalkulator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Kalkulator" />
         <item itemvalue="Application.Duznici" />
         <item itemvalue="Application.ObjektiCitanje" />
         <item itemvalue="Application.ObjektiPisanje" />
         <item itemvalue="Application.kopiranjeInternet" />
-        <item itemvalue="Application.kopiranjeNovo" />
       </list>
     </recent_temporary>
   </component>
@@ -151,10 +154,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="276" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580690168158" />
-    <state x="482" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580082105815">
+    <state x="482" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582674434084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="482" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580082105815" />
+    <state x="482" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582674434084" />
     <state x="780" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580082881027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,38 +170,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="824" y="416" width="428" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1580078299213" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1580728380132">
+    <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1582674603143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580728380132" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1580728380131">
+    <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582674603143" />
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1582677014496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580728380131" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1580728380131">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582677014496" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1582677014495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580728380131" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1580728380131">
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582677014495" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1582677014495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580728380131" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1580692370872">
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582677014495" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1582677014496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580692370872" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1580692370872">
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582677014496" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1582675702896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580692370872" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1580692370872">
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582675702896" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1582675702896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580692370872" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1580692370872">
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582675702896" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1582675702896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580692370872" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582675702896" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1582675702896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582675702896" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1582674615432">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582674615432" />
     <state x="724" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1580726618376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -207,6 +218,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="763" y="345" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579352940885" />
+    <state x="342" y="141" key="new project wizard" timestamp="1582674604491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1582674604491" />
     <state x="734" y="150" key="refactoring.ChangeSignatureDialog" timestamp="1578873609522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
